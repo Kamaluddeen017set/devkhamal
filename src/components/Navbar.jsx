@@ -1,9 +1,9 @@
 import "../styles/Navbar.css";
-
+import profilePic from "/img_3_1733317074951.jpg";
 function Navbar() {
   return (
     <nav>
-      <img src="./img_3_1733317074951.jpg" alt="Profile" id="dp" />
+      <img src={profilePic} alt="Profile" id="dp" />
       <span>Dev~khamal</span>
       <ul>
         <li>

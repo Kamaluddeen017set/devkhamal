@@ -1,13 +1,9 @@
 import "../styles/Hero.css";
-
+import devPic from "/mypicNo background.png";
 function Hero() {
   return (
     <section>
-      <img
-        src=".\mypicNo background.png"
-        alt="devKhamal picture"
-        className="mypicture"
-      />
+      <img src={devPic} alt="devKhamal picture" className="mypicture" />
       <h3>Hello, My Name is Kamal</h3>
       <h1>I make websites.</h1>
       <p>
