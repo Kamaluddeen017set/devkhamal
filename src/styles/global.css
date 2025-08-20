@@ -1,0 +1,34 @@
+:root {
+  --pc: #e38e9d;
+  --sc: #45161e;
+  --tc: rgb(252, 102, 127);
+  --lm: #f7cdd4;
+}
+
+/* Themes */
+[data-theme="lobster"] {
+  --pc: #e38e9d;
+  --sc: #45161e;
+  --tc: rgb(252, 102, 127);
+  --lm: #f7cdd4;
+}
+[data-theme="light"] {
+  --pc: #ffffff;
+  --sc: #45161e;
+  --tc: rgb(252, 102, 127);
+  --lm: #d9e5e9;
+}
+[data-theme="dark"] {
+  --pc: #0f101e;
+  --sc: #fdf9f9;
+  --tc: rgb(252, 102, 127);
+  --lm: #35353d;
+}
+
+body {
+  background: var(--pc);
+  color: var(--sc);
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  margin: 0;
+  font-family: sans-serif;
+}

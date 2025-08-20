@@ -1,0 +1,61 @@
+.container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: var(--sc);
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: var(--lm);
+  border-radius: 12px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--tc);
+}
+
+.card ul {
+  list-style: disc inside;
+  padding: 0;
+  margin: 0;
+}
+
+.card ul li {
+  font-size: 14px;
+  margin: 5px 0;
+  color: var(--sc);
+}
+
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

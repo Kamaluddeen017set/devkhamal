@@ -1,0 +1,72 @@
+nav {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  background: var(--lm);
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+nav #dp {
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav span {
+  position: absolute;
+  font-family: "Fleur De Leah", cursive;
+  /* font-weight: 500; */
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 55px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin-left: 65%;
+  margin-top: 2%;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: var(--sc);
+  text-decoration: none;
+  font-size: 13px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.line {
+  color: var(--tc);
+}
+
+nav i {
+  margin-left: 15px;
+
+  cursor: pointer;
+  font-size: 18px;
+}
+#menu {
+  display: none;
+}
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  nav ul li {
+    margin: 8px 0;
+  }
+}

@@ -1,0 +1,36 @@
+.slider {
+  opacity: 0;
+  background: var(--lm);
+  padding: 15px 20px;
+}
+
+.slider ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.slider ul li a {
+  text-decoration: none;
+  color: var(--sc);
+  transition: color 0.3s;
+}
+
+.slider ul li a:hover,
+.slider ul li a.line {
+  color: var(--tc);
+}
+
+/* 🔹 Responsive */
+@media (max-width: 768px) {
+  .slider ul {
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+  .slider {
+    opacity: 1;
+  }
+}

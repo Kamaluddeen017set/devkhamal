@@ -1,0 +1,40 @@
+footer {
+  background: var(--lm);
+  padding: 20px;
+  text-align: center;
+}
+
+footer hr {
+  border: none;
+  border-top: 1px solid var(--sc);
+  margin-bottom: 15px;
+}
+
+.fotter ol {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.fotter ol li {
+  color: var(--sc);
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.fotter ol li:hover {
+  color: var(--tc);
+}
+
+/* 🔹 Responsive */
+@media (max-width: 600px) {
+  .fotter ol {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
