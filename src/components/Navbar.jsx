@@ -1,9 +1,13 @@
 import "../styles/Navbar.css";
-import profilePic from "/img_3_1733317074951.jpg";
+
 function Navbar() {
   return (
     <nav>
-      <img src={profilePic} alt="Profile" id="dp" />
+      <img
+        src="https://res.cloudinary.com/dg1zkgl6n/image/upload/v1754813897/img_3_1733317074951_edxwyr.jpg"
+        alt="Profile"
+        id="dp"
+      />
       <span>Dev~khamal</span>
       <ul>
         <li>

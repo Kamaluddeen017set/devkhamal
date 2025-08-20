@@ -1,9 +1,13 @@
 import "../styles/Hero.css";
-import devPic from "/mypicNo background.png";
+
 function Hero() {
   return (
     <section>
-      <img src={devPic} alt="devKhamal picture" className="mypicture" />
+      <img
+        src="https://res.cloudinary.com/dg1zkgl6n/image/upload/e_background_removal/f_png/v1754813897/img_3_1733317074951_edxwyr.jpg"
+        alt="devKhamal picture"
+        className="mypicture"
+      />
       <h3>Hello, My Name is Kamal</h3>
       <h1>I make websites.</h1>
       <p>
