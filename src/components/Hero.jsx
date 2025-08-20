@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section>
       <img
-        src="\image\mypicNo background.png"
+        src="\mypicNo background.png"
         alt="devKhamal picture"
         className="mypicture"
       />

@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav>
-      <img src="/image/img_3_1733317074951.jpg" alt="Profile" id="dp" />
+      <img src="/img_3_1733317074951.jpg" alt="Profile" id="dp" />
       <span>Dev~khamal</span>
       <ul>
         <li>
