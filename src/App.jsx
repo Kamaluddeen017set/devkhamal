@@ -6,12 +6,7 @@ import Skills from "./components/Skills";
 import ThemeToggle from "./components/ThemeToggle";
 import Footer from "./components/Footer";
 
-import { useState } from "react";
-import { ThemeContext } from "./ThemeContext";
-
 function App() {
-  // const [displayHeader, setDisplayHeader] = useState(false);
-
   return (
     <>
       <Navbar /> <ThemeToggle />

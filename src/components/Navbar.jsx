@@ -6,12 +6,12 @@ function Navbar() {
       <span>Dev~khamal</span>
       <ul>
         <li>
-          <a className="line" href="/">
+          <a className="line" href="/home">
             Home
           </a>
         </li>
         <li>
-          <a href="/service">Services</a>
+          <a hsref="/service">Services</a>
         </li>
         <li>
           <a href="/Gallery">Gallery</a>
