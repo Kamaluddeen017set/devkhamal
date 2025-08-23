@@ -1,11 +1,15 @@
 .menu-tooltip {
   --toggle-color: var(--lm);
-  --item-1-gradient: linear-gradient(45deg, #62daca, #10d4a9);
-  --item-2-gradient: linear-gradient(45deg, #f97d98, #d41f46);
-  --item-3-gradient: linear-gradient(45deg, aliceblue, #d169d1);
+  --item-1-gradient: linear-gradient(45deg, #f97d98, #62daca83);
+  --item-2-gradient: linear-gradient(45deg, aliceblue, #d3c8cb71);
+  --item-3-gradient: linear-gradient(
+    45deg,
+    #0f101e,
+    rgba(240, 248, 255, 0.548)
+  );
   width: 200px;
   height: 200px;
-  margin-top: -3%;
+  margin-top: 22px;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -62,14 +66,17 @@
 
     &:nth-of-type(1) .anchor {
       background: var(--item-1-gradient);
+      box-shadow: inset -2px -2px 4px 0 #0006, inset 2px 2px 4px 0 #0008;
     }
 
     &:nth-of-type(2) .anchor {
       background: var(--item-2-gradient);
+      box-shadow: inset -2px -2px 4px 0 #0006, inset 2px 2px 4px 0 #0008;
     }
 
     &:nth-of-type(3) .anchor {
       background: var(--item-3-gradient);
+      box-shadow: inset -2px -2px 4px 0 #0006, inset 2px 2px 4px 0 #0008;
     }
 
     &:nth-of-type(4),
@@ -78,7 +85,20 @@
     &:nth-of-type(7) {
       visibility: hidden;
     }
+    .dark_icon {
+      color: black;
+      margin-top: 7px;
 
+      z-index: 10;
+    }
+    .white_icon {
+      color: #fff;
+      margin-top: 7px;
+    }
+    .lobster_icon {
+      color: #90193e;
+      margin-top: 5px;
+    }
     .anchor {
       width: 40px;
       height: 40px;

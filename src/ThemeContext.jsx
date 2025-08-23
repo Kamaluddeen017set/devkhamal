@@ -3,10 +3,10 @@ import { createContext, useState, useEffect } from "react";
 export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState("lobster");
+  const [theme, setTheme] = useState("dark");
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("selectedTheme") || "lobster";
+    const savedTheme = localStorage.getItem("selectedTheme") || "dark";
     setTheme(savedTheme);
     document.documentElement.setAttribute("data-theme", savedTheme);
   }, []);

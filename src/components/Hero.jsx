@@ -1,21 +1,41 @@
 import "../styles/Hero.css";
+import TypingText from "./TypingText"; // Import our typing effect
 
 function Hero() {
   return (
     <section>
-      <img
-        src="https://res.cloudinary.com/dg1zkgl6n/image/upload/e_background_removal/f_png/v1754813897/img_3_1733317074951_edxwyr.jpg"
-        alt="devKhamal picture"
-        className="mypicture"
-      />
-      <h3>Hello, My Name is Kamal</h3>
-      <h1>I make websites.</h1>
+      <div className="image_border">
+        <img
+          src="https://res.cloudinary.com/dg1zkgl6n/image/upload/v1755844876/20250822_003544-Photoroom_wbq1kd.png"
+          alt="devKhamal picture"
+          className="mypicture"
+        />
+      </div>
+
+      <h3>
+        Hello, I`m Kamaluddin, a{" "}
+        <TypingText
+          texts={[
+            "Web Developer",
+            "Frontend Engineer",
+            "UI/UX Designer",
+            "React Enthusiast",
+            "Freelancer",
+            "Responsive Designer",
+          ]}
+          typingSpeed={50}
+          deletingSpeed={50}
+          delay={2000}
+        />
+      </h3>
+
+      <h1>I design and build modern, responsive websites.</h1>
       <p>
-        I'm a front-end <b>developer</b> also a <b>designer</b> based in Kano,
-        Nigeria. I have worked on a wide range of front-end projects, from
-        personal web apps to eCommerce booking platforms, with a focus on
-        creating clean, well-crafted interfaces that look great and provide a
-        seamless user experience.
+        I’m a <b>front-end developer</b> and <b>designer</b> based in Kano,
+        Nigeria. I create modern, responsive, and user-friendly websites that
+        bring ideas to life. Over the years, I’ve worked on projects ranging
+        from personal web apps to e-commerce platforms, always focusing on clean
+        design, performance, and a seamless user experience.
       </p>
     </section>
   );

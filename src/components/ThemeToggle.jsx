@@ -18,7 +18,7 @@ function ThemeToggle() {
           alt="theme"
           onClick={() => changeTheme("lobster")}
         >
-          👾
+          <i className="fa-solid fa-house-tsunami lobster_icon "></i>
         </a>
       </li>
       <li style={{ "--i": 1 }} className="circle-box">
@@ -27,7 +27,10 @@ function ThemeToggle() {
           className="anchor"
           alt="theme"
           onClick={() => changeTheme("light")}
-        ></a>
+        >
+          {" "}
+          <i className="fa-solid fa-sun white_icon"></i>
+        </a>
       </li>
       <li style={{ "--i": 2 }} className="circle-box">
         <a
@@ -36,7 +39,7 @@ function ThemeToggle() {
           alt="theme"
           onClick={() => changeTheme("dark")}
         >
-          🪼
+          <i className="fa-solid fa-moon dark_icon"></i>
         </a>
       </li>
       <li style={{ "--i": 3 }} className="circle-box">

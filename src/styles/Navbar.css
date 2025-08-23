@@ -5,20 +5,15 @@ nav {
   background: var(--lm);
   padding: 10px 20px;
   flex-wrap: wrap;
-}
-
-nav #dp {
-  width: 50px;
-  border-radius: 50%;
+  height: 50px;
 }
 
 nav span {
   position: absolute;
   font-family: "Fleur De Leah", cursive;
-  /* font-weight: 500; */
+  font-weight: 700;
   font-style: normal;
   font-size: 40px;
-  margin-left: 55px;
 }
 
 nav ul {

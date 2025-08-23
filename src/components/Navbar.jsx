@@ -3,11 +3,6 @@ import "../styles/Navbar.css";
 function Navbar() {
   return (
     <nav>
-      <img
-        src="https://res.cloudinary.com/dg1zkgl6n/image/upload/v1754813897/img_3_1733317074951_edxwyr.jpg"
-        alt="Profile"
-        id="dp"
-      />
       <span>Dev~khamal</span>
       <ul>
         <li>
@@ -19,7 +14,7 @@ function Navbar() {
           <a href="/service">Services</a>
         </li>
         <li>
-          <a href="/gallary">Gallary</a>
+          <a href="/Gallery">Gallery</a>
         </li>
         <li>
           <a href="/work">My work</a>

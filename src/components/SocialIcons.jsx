@@ -4,7 +4,7 @@ function SocialIcons() {
   return (
     <>
       <button>
-        About
+        Let`s Talk
         <div className="star-1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -217,7 +217,7 @@ function SocialIcons() {
       <ul className="example-2">
         <li className="icon-content">
           <a
-            href="https://www.github.com/"
+            href="https://github.com/Kamaluddeen017set"
             aria-label="GitHub"
             data-social="github"
           >
