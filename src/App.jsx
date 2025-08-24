@@ -8,14 +8,15 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Navbar /> <ThemeToggle />
+    <div>
+      <Navbar />
+      <ThemeToggle />
       <Slider />
       <Hero />
       <SocialIcons />
       <Skills />
       <Footer />
-    </>
+    </div>
   );
 }
 
